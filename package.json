@@ -1,6 +1,6 @@
 {
   "name": "dictator-cypress",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "bin": {
     "dictator-cypress": "node_modules/dictator-builder/lib/index.js"
   },
