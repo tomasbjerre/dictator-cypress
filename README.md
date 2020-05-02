@@ -18,7 +18,7 @@ When added to your `package.json` like this:
 ```json
 {
   "scripts": {
-    "prepare": "npx dictator-cypress@a.b.c"
+    "preinstall": "npx dictator-cypress@a.b.c"
   }
 }
 ```
@@ -27,7 +27,7 @@ And when `npm install` is performed in that repository, it will:
 
 - Determine your platform
 - Add **cypress binary** for your platform as `/cypress.zip`
-- Make sure `.npmrc` contains `CYPRESS_INSTALL_BINARY=cypress.zip`
+- Make sure `.npmrc` contains `CYPRESS_INSTALL_BINARY=${PWD}/cypress.zip`
 
 # Publishing this repository to use it in application
 

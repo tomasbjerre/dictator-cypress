@@ -3,7 +3,7 @@
   "actions": [
     {
       "target": ".npmrc",
-      "haveLineContaining": ["CYPRESS_INSTALL_BINARY=\${PWD}/cypress.zip"]
+      "haveLineContaining": ["CYPRESS_INSTALL_BINARY=${PWD}/cypress.zip"]
     }
   ]
 }
