@@ -12,7 +12,7 @@
     "release": "npm version patch && npm run test && npm publish && git push --follow-tags"
   },
   "dependencies": {
-    "dictator-builder": "0.0.12"
+    "dictator-builder": "0.0.13"
   },
   "author": "Tomas Bjerre",
   "keywords": [
