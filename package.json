@@ -14,7 +14,7 @@
     "release": "npm version patch && npm run test && npm publish && git push --follow-tags"
   },
   "dependencies": {
-    "dictator-builder": "0.0.16"
+    "dictator-builder": "0.0.17"
   },
   "author": "Tomas Bjerre",
   "keywords": [
