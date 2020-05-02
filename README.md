@@ -11,6 +11,8 @@ This is just an example of how to package cypress to use it inside firewalls whe
 
 # Using it with an application
 
+Se example usage in [dictator-cypress-example](https://github.com/tomasbjerre/dictator-cypress-example).
+
 When added to your `package.json` like this:
 
 ```json
