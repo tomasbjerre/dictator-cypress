@@ -1,0 +1,14 @@
+{
+  "message": "Copy linux cypress to cypress.zip",
+  "triggers": [
+    {
+    "runningOnPlatform": ["linux"]
+  }
+  ],
+  "actions": [
+    {
+      "copyFrom": "linux-x64.zip",
+      "target": "cypress.zip"
+    }
+  ]
+}

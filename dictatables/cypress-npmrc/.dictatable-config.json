@@ -1,0 +1,9 @@
+{
+  "message": ".npmrc should have reference to cypress binary",
+  "actions": [
+    {
+      "target": ".npmrc",
+      "haveLineContaining": ["CYPRESS_INSTALL_BINARY=cypress.zip"]
+    }
+  ]
+}

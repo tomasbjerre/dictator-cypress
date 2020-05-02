@@ -1,0 +1,23 @@
+{
+  "name": "dictator-cypress",
+  "version": "0.0.1",
+  "bin": {
+    "haffaz": "node_modules/dictator-builder/lib/index.js"
+  },
+  "scripts": {
+    "run": "npm run build && npm i -g && haffaz",
+    "build": "npm run format",
+    "test": "npm run run",
+    "format": "npx prettier --write '{*.md,package.json,**/*.json}'",
+    "release": "npm version patch && npm run test && npm publish && git push --follow-tags"
+  },
+  "dependencies": {
+    "dictator-builder": "0.0.12"
+  },
+  "author": "Tomas Bjerre",
+  "keywords": [
+    "dictator",
+    "cypress"
+  ],
+  "license": "Apache 2"
+}
