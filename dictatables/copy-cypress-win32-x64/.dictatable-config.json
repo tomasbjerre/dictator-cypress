@@ -2,8 +2,8 @@
   "message": "Copy win32-x64 cypress to cypress.zip",
   "triggers": [
     {
-    "runningOnPlatform": ["win32"]
-  }
+      "runningOnPlatform": ["win32"]
+    }
   ],
   "actions": [
     {

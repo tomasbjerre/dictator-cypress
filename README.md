@@ -23,16 +23,16 @@ When added to your `package.json` like this:
 
 And when `npm install` is performed in that repository, it will:
 
- * Determine your platform
- * Add **cypress binary** for your platform as `/cypress.zip`
- * Make sure `.npmrc` contains `CYPRESS_INSTALL_BINARY=cypress.zip`
+- Determine your platform
+- Add **cypress binary** for your platform as `/cypress.zip`
+- Make sure `.npmrc` contains `CYPRESS_INSTALL_BINARY=cypress.zip`
 
 # Publishing this repository to use it in application
 
 You need to get the binaries from the [Cypress download mirror](https://docs.cypress.io/guides/getting-started/installing-cypress.html). Only pick the ones you need, perhaps:
 
- * https://cdn.cypress.io/desktop/4.5.0/win32-x64/cypress.zip
- * https://cdn.cypress.io/desktop/4.5.0/linux-x64/cypress.zip
+- https://cdn.cypress.io/desktop/4.5.0/win32-x64/cypress.zip
+- https://cdn.cypress.io/desktop/4.5.0/linux-x64/cypress.zip
 
 Replace the fake zip-binaries in [/dictatables](/dictatables) folders with the real ones you downloaded.
 
