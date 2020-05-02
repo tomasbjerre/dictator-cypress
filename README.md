@@ -1,7 +1,7 @@
 # dictator-cypress
 
 [![NPM](https://img.shields.io/npm/v/dictator-cypress.svg?style=flat-square)](https://www.npmjs.com/package/dictator-cypress)
-[![Build Status](https://travis-ci.org/tomasbjerre/dictator-dictator-cypress.svg?branch=master)](https://travis-ci.org/tomasbjerre/dictator-dictator-cypress)
+[![Build Status](https://travis-ci.org/tomasbjerre/dictator-cypress.svg?branch=master)](https://travis-ci.org/tomasbjerre/dictator-cypress)
 
 An example dictator created with [dictator-builder](https://github.com/tomasbjerre/dictator-builder).
 
