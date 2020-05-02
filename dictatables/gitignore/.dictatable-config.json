@@ -1,0 +1,9 @@
+{
+  "message": ".gitignore should include the copied zip",
+  "actions": [
+    {
+      "target": ".gitignore",
+      "haveLineContaining": ["cypress.zip"]
+    }
+  ]
+}
