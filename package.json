@@ -1,6 +1,8 @@
 {
   "name": "dictator-cypress",
   "version": "0.0.13",
+  "homepage": "https://github.com/tomasbjerre/dictator-cypress",
+  "repository": "git@github.com:tomasbjerre/dictator-cypress.git",
   "bin": {
     "dictator-cypress": "node_modules/dictator-builder/lib/index.js"
   },
