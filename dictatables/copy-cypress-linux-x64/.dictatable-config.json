@@ -2,7 +2,7 @@
   "message": "Copy linux cypress to cypress.zip",
   "triggers": [
     {
-      "runningOnPlatform": ["linux"]
+      "runningOnPlatform": "linux"
     }
   ],
   "actions": [
