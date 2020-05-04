@@ -3,7 +3,7 @@
   "actions": [
     {
       "target": ".gitignore",
-      "haveLineContaining": ["cypress.zip"]
+      "haveLineContaining": ["/cypress.zip"]
     }
   ]
 }

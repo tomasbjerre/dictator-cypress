@@ -1,6 +1,6 @@
 node_modules
 package-lock.json
 
-.gitmessage
-.npmrc
-cypress.zip
+/.gitmessage
+/.npmrc
+/cypress.zip
