@@ -7,8 +7,8 @@
   ],
   "actions": [
     {
-      "copyFrom": "win32-x64.zip",
-      "target": "cypress.zip"
+      "copyFrom": "win32-x64/cypress.zip",
+      "target": "."
     }
   ]
 }
