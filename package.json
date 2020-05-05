@@ -4,7 +4,7 @@
   "homepage": "https://github.com/tomasbjerre/dictator-cypress",
   "repository": "git@github.com:tomasbjerre/dictator-cypress.git",
   "bin": {
-    "dictator-cypress": "node_modules/dictator-builder/lib/index.js"
+    "dictator-cypress": "./index.js"
   },
   "scripts": {
     "run": "npm run build && npm i -g && dictator-cypress",
@@ -14,7 +14,7 @@
     "release": "npm version patch && npm run test && npm publish && git push --follow-tags"
   },
   "dependencies": {
-    "dictator-builder": "0.0.24"
+    "dictator-builder": "0.0.27"
   },
   "author": "Tomas Bjerre",
   "keywords": [
