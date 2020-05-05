@@ -1,2 +1,2 @@
 #!/usr/bin/env node
-const r = require("dictator-builder/lib/index.lib").run();
+require("dictator-builder/lib/index.lib").run();
