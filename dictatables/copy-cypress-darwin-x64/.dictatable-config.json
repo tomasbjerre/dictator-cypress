@@ -1,5 +1,5 @@
 {
-  "message": "Copy linux cypress to cypress.zip",
+  "message": "Copy darwin cypress to cypress.zip",
   "triggers": [
     {
       "runningOnPlatform": "darwin"
