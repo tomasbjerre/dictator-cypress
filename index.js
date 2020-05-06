@@ -1,2 +1,2 @@
 #!/usr/bin/env node
-require("dictator-builder/lib/index.lib").run();
+require("dictator-builder/lib/index.lib").run(__dirname);
