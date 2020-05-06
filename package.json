@@ -1,6 +1,6 @@
 {
   "name": "dictator-cypress",
-  "version": "0.0.25",
+  "version": "0.0.26",
   "homepage": "https://github.com/tomasbjerre/dictator-cypress",
   "repository": "git@github.com:tomasbjerre/dictator-cypress.git",
   "bin": {
